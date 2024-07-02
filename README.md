@@ -1,19 +1,30 @@
+# Python MySQL Database Interaction
+
+This Python script interacts with a MySQL database (`ppj`) using `mysql.connector`. It provides functionalities to insert, update, select, and delete data from the `users` table. Data retrieval is displayed in a formatted table using `tabulate`.
+
+## Requirements
+
+- Python 3.x
+- MySQL server installed and running
+- Install required libraries:
+  ```bash
+  pip install mysql-connector-python tabulate
 Functionality
 Insert Data:
-
 Allows inserting a new user into the users table with name, age, and place.
+
 Update Data:
-
 Updates existing user data based on the user ID.
+
 Select Data:
-
 Retrieves all user data from the users table and displays it in a formatted table.
+
 Delete Data:
-
 Deletes a user based on the user ID.
-Exit:
 
+Exit:
 Ends the program.
+
 Usage
 Running the Script:
 
